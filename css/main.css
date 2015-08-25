@@ -1,0 +1,41 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.banner {
+  margin: 0 auto;
+}
+.pacifico{
+    font-family: 'Pacifico', cursive;
+}
+.grande{
+    font-size: 5em;
+}
+.mediano{
+    font-size: 1.5em;
+}
+.naranja{
+    color: #E96600;
+}
+.titulo{
+    height: 50px;
+    width: 60%;
+    position: absolute;
+    top: 50px;
+    left: 20%;
+}
+.retraso-1{
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    animation-delay: 1s;
+}
+.retraso-2{
+    -webkit-animation-delay: 2s;
+    -moz-animation-delay: 2s;
+    animation-delay: 2s;
+}
