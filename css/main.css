@@ -6,6 +6,7 @@
 body {
   padding-top: 50px;
   padding-bottom: 20px;
+  background-color: rgba(0,0,0,0.03);
 }
 .banner {
   margin: 0 auto;
@@ -38,4 +39,24 @@ body {
     -webkit-animation-delay: 2s;
     -moz-animation-delay: 2s;
     animation-delay: 2s;
+}
+
+.card {
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  padding: 0;
+}
+
+.card-title{
+  background: #3F51B5;
+  color: #FFF;
+  text-align: center;
+  padding:1px;
+}
+
+.card-body{
+  margin-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
