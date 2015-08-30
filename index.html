@@ -62,8 +62,30 @@
     <br><br>
     <div class="container">
       <!-- Example row of columns -->
-      <div class="row">
-        <div class="col-md-5 card">
+
+      <!-- re-ubicacion del contador para el evento -->
+
+      <div class="row space">
+        <div class="col-sx-12 col-md-12" id="countdown">
+          
+          <h2 class="pacifico"> Días faltantes para el Festival:</h2>
+          <script>
+            TargetDate = "11/19/2015 08:00 AM";
+            BackColor = "black";
+            ForeColor = "white";
+            CountActive = true;
+            CountStepper = -1;
+            LeadingZero = true;
+            DisplayFormat = "%%D%% Días, %%H%% Horas, %%M%% Minutos, %%S%% Segundos.";
+            FinishMessage = "El Festival de Tecnologías Libres ha comenzado!!!, ven y acompañanos!!!";
+          </script>
+          <script src="http://scripts.hashemian.com/js/countdown.js"></script>
+        </div>
+
+      </div>
+
+      <div class="row space">
+        <div class="col-sx-12 col-sm-7 col-md-7  card">
           <div class="card-title pacifico">
             <h2>Inicio</h2>
           </div>
@@ -74,14 +96,19 @@
           </p>          
         </div>
         </div>
+
+        <!-- Omitiendo columna temporalmente
         <div class="col-md-3">
           <h2 class="text-center">Faltan</h2>
           <div style="width:100%; text-align:center;" >
             <iframe  src="https://www.eventbrite.es/countdown-widget?eid=18268859651" frameborder="0" height="659" width="195" marginheight="0" marginwidth="0" scrolling="no" allowtransparency="true"></iframe>
           </div>
-        </div>
-        <div class="col-md-4">
-          <div class="row card">
+        </div> -->
+
+        <div class="offset col-md-1 col-sm-1"></div>
+
+        <div class="col-md-4 col-sx-12 col-sm-4 card">
+          <!--<div class="row card">-->
             <div class="card-title pacifico">
               <h2>Colaboradores</h2>
             </div>
@@ -93,16 +120,48 @@
             <a href="http://www.industriasdiana.gob.ve/" title="Industrías Diana"><img src="img/diana.png" width="190" height="100"/></a>
             <a href="http://www.iutvalencia.edu.ve/" title="IUTVAL"><img src="img/iutval.png" width="126" height="84"/></a>
           </div>
+          </div>
           </div> 
-          <div class="row card">
-            <div class="card-title pacifico">
-              <h2>Twitter</h2>
-            </div>
+          <!--fin de colaboradores --> 
+          
+          <div class="row space">
+
+
+          <div class="col-md-3 col-sx-6 col-sm-3 card">
+              <div class="card-title pacifico">
+                <h2>Seccion Extra 1 </h2></div>
+            <div class="card-body">
+              Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla vitae molestie leo, eu sollicitudin massa. Phasellus volutpat lectus sit amet fermentum ultricies. Sed in magna vel lorem rutrum euismod. Aenean tempus mauris vel sapien dapibus tempus. Integer commodo eu enim nec sollicitudin. Nullam luctus est ut risus imperdiet consequat.
+            </div>            
+        </div>
+
+<div class="offset col-md-1 col-sm-1"></div>              
+
+            <div class="col-md-4 col-sx-12 col-sm-4 card">
+              <div class="card-title pacifico">
+                <h2>Twitter</h2>
+              </div>
             <div class="card-body">
             <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/ftliutval" data-widget-id="636303699678248960">Tweets por el @ftliutval.</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
           </div>
           </div>
+          <!--fin twitter-->
+
+       
+
+    
+
+      <div class="offset col-md-1 col-sm-1"></div>
+
+          <div class="col-md-3 col-sx-6 col-sm-3 card">
+              <div class="card-title pacifico">
+                <h2>Seccion Extra 2 </h2>
+              </div>
+            <div class="card-body">
+              Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla vitae molestie leo, eu sollicitudin massa. Phasellus volutpat lectus sit amet fermentum ultricies. Sed in magna vel lorem rutrum euismod. Aenean tempus mauris vel sapien dapibus tempus. Integer commodo eu enim nec sollicitudin. Nullam luctus est ut risus imperdiet consequat. 
+            </div>
+        </div>
         </div>
       </div>
 

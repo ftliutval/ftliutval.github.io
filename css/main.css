@@ -41,6 +41,17 @@ body {
     animation-delay: 2s;
 }
 
+#countdown{
+  background-color: #000;
+  text-align: center;
+  font-size: 1.4em;
+  color: #fff;
+  padding: 1px;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+
+}
+
 .card {
   border-radius: 4px;
   background-color: #fff;
@@ -49,7 +60,7 @@ body {
 }
 
 .card-title{
-  background: #3F51B5;
+  background-image: linear-gradient(to bottom, #3C3C3C 0px, #222 100%);
   border-radius: 4px 4px 0 0;
   color: #FFF;
   text-align: center;
@@ -61,4 +72,9 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   margin-bottom: 10px;
+  font-size: 1.4em;
+}
+
+.space {
+  margin-bottom: 1.7em;
 }
